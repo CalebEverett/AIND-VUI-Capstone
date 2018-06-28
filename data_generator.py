@@ -46,7 +46,7 @@ class AudioGenerator():
         self.cur_valid_index = 0
         self.cur_test_index = 0
         self.max_duration=max_duration
-        self.minibatch_size = minibatch_size
+        self.minibatch_size = int(minibatch_size)
         self.spectrogram = spectrogram
         self.sort_by_duration = sort_by_duration
 
